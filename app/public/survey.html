@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Questions</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1><strong>Survey Questions</strong></h1>
+        <hr>
+
+        <h2>About You:</h2>
+        <br>
+        <h4>Name (required)</h4>
+        <input type="text" id="name" class="form-control" required>
+
+        <h4>Link to Photo (required)</h4>
+        <input type="text" id="photo" class="form-control" required>
+
+        <hr>
+
+        <h3 class="my-3">Question 1</h3>
+        <h4>There's always room for dessert.</h4>
+        <select data-placeholder="" class="chosen-select" id="q1">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 2</h3>
+        <h4>I would rather talk than listen.</h4>
+        <select data-placeholder="" class="chosen-select" id="q2">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 3</h3>
+        <h4>Reading books is one of my all time favorite hobbies.</h4>
+        <select data-placeholder="" class="chosen-select" id="q3">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 4</h3>
+        <h4>Going hiking sounds like a perfect weekend activity.</h4>
+        <select data-placeholder="" class="chosen-select" id="q4">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 5</h3>
+        <h4>I've seen all the Star Wars movies.</h4>
+        <select data-placeholder="" class="chosen-select" id="q5">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 6</h3>
+        <h4>Dogs make better pets than cats.</h4>
+        <select data-placeholder="" class="chosen-select" id="q6">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 7</h3>
+        <h4>Disneyland is truly the happiest place on Earth.</h4>
+        <select data-placeholder="" class="chosen-select" id="q7">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 8</h3>
+        <h4>The first thing I would do if I won the lotto would be to travel the world.</h4>
+        <select data-placeholder="" class="chosen-select" id="q8">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 9</h3>
+        <h4>Public speaking gives me anxiety.</h4>
+        <select data-placeholder="" class="chosen-select" id="q9">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <h3 class="my-3">Question 10</h3>
+        <h4>Netflix binging is my guilty pleasure.</h4>
+        <select data-placeholder="" class="chosen-select" id="q10">
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree</option>
+        </select>
+
+        <br>
+        <br>
+
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+
+        <hr>
+
+        <footer class="footer">
+            <p><a href="#">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+        </footer>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
